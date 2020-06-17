@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Bluejay",
     platforms: [
-        .iOS(.v11),
+        .iOS(.v11), .macOS(.v10_13)
     ],
     products: [
         .library(
